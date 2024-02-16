@@ -9,11 +9,12 @@
 <body>
     <h1>Javascript</h1><br>
 
-    <div id="app">
-        <button @click="count++">
-            {{ count }}
-        </button>
-    </div>
+    
+        <button @click="counter++">Add 1</button>
+        <template>
+            <p>The button above has been clicked {{ counter }} times.</p>
+        </template>
+
 </body>
 <scrip src="./index.js"> </script>
 </html>
